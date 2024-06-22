@@ -1,0 +1,215 @@
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:right;
+    background-color:#232f3e;
+    padding:20px;
+    width:100%;
+    color:#232f3e;
+  }
+  header h1{
+    padding-left: 20px;
+    text-align:center;
+    color:white;
+  }
+  nav ul{
+    display:flex;
+    line-style:none;
+    padding-left:640px;
+    padding-top:15px;
+  }
+  nav ul li{
+    line-style:none;
+    padding:0px 5px;
+    color:transparent;
+  }
+  nav ul a{
+    font-size:14px;
+    color:white;
+    text-decoration:none;
+    margin-right:1px;
+  }
+  nav ul a:hover{
+    color:black;
+    background-color:white;
+    border:2px solid black;
+    border-radius:5px;
+  }
+  .search{
+    padding-top:15px;
+    align:top-right;
+  }
+  .search input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 7px;
+    margin-right: 10px;
+  }
+  .search button[type="submit"] {
+    padding: 10px;
+    margin-right:20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #febd69;
+    color: #fff;
+  }
+  .search button[type="submit"]:hover {
+    padding: 10px;
+    background-color:azure;
+    margin-right:20px;
+    border-radius: 5px;
+    border: none;
+    color: #000000;
+    cursor:pointer;
+  }
+  .main
+  {
+    min-height: 80vh;
+    padding:20px;
+      width: 100%;
+      background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://3.bp.blogspot.com/-ApoXScou8M8/W8Q7OaELfcI/AAAAAAAACMw/pC8vt-aqEQkUH363jHU2Um0JxgZhx1eKgCLcBGAs/s640/html_defination.jpg);
+      background-position: center;
+      background-size: cover;
+      position:relative;
+    text-align:center;
+  }
+  .main h1{
+    font-size:45px;
+    color:#fff;
+  }
+  
+  .main p{
+    font-size:30px;
+    color:#fff;
+  }
+  .main a{
+    font-size:50px;
+    border:3px solid rgb(255, 255, 255);
+    padding:8px;
+    border-radius:5px;
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    transition:0.2s;
+  }
+  .main a:hover{
+    
+    color:black;
+    background-color:white;
+  }
+  .products{
+    text-align:center;
+    
+  }
+  .products h1{
+    color:black;
+    font-size:30px;
+    cursor:pointer;
+    text-decoration: underline;
+  }
+  .products p{
+    color:black;
+    font-size: 18px;
+  }
+  .cat div{
+    border:1px solid white;
+    width:300px;
+    margin:50px;
+    background-color: beige;
+    padding:10px;
+    transition:0.2s;
+  }
+  .cat div:hover{
+   box-shadow:0 0 20px 0 #232f3e;
+  }
+
+  .cat h1{
+    font-size:14px;
+    text-decoration: underline;
+  }
+  .cat p{
+    font-size:10px;
+  }
+  .cat{
+    display:inline-flex;
+  }
+.pics{
+display:inline-flex;
+padding:20px;
+align:center;
+}
+  .pics div img{
+ 
+    width: 400px;
+    height: 250px;
+    border-radius:5px;
+    transition: 0.5s;
+    margin:5px;
+  }
+  .pic1 div h3{
+    width: 100%;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+    position: absolute;
+    color:black;
+  }
+  .pics div{
+    align-items: center;
+    margin:40px;
+  }
+  .pics div img:hover{
+    box-shadow:0 0 20px 0 #232f3e;
+  }
+  .cont{
+    width:80%;
+    margin:auto;
+    text-align: center;
+    display: flex;
+  }
+  .area{
+    background-color: antiquewhite;
+    flex-basis:44%;
+    border-radius:5px;
+    margin-bottom:5px;
+    text-align:left;
+    border: 2px;
+    border-style: dashed;
+    padding:25px;
+  }
+  .area img{
+    height:40px;
+    border-radius:5px;
+    margin-left:15px;
+    margin-right:14px;
+  }
+.final{
+  background:linear-gradient(rgba(2,0,0,0.7),rgba(2,0,0,0.7)),url(pic9.jpg);
+  background-size:cover;
+  background-position: center;
+  width:50%;
+  margin:auto;
+  text-align:center;
+  padding: 100px 0;
+  border-radius: 8px;
+}
+.final h2{
+  color:white;
+  margin:auto;
+}
+.final a{
+  color: white;
+  margin:auto;
+  text-decoration: none;
+  border:1px solid rgb(255, 255, 255);
+  padding: 10px;
+}
+.final a:hover{
+  background-color: #232f3e;
+  color:white;
+  cursor:pointer;
+}
+.end{
+  text-align: center;
+  padding:20px;
+}
