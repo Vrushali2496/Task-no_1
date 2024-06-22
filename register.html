@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Registration Form</h2>
+    <form action="register.php" method="post">
+      <div class="form-group">
+        <label for="name">Enter Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Enter New Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="confirm-password">Enter Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+      </div>
+            <div class="form-group">
+        <label for="date">Date Of Birth:</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <input type="submit" value="Register">
+    </form>
+  </div>
+</body>
+</html>
